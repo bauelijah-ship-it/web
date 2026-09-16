@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ff0000;
+}
+</style>
+</head>
+<body>
+
+<h2>資訊三甲 鮑廷恩</h2>
+
+
+<p>
+<script>
+    for (let i = 0; i <= 9; i++) {
+        for (let j = 0; j <= i ; j++) {
+            document.write(i + " * " + j + " = " + (i * j) + "&nbsp;&nbsp;&nbsp;");
+        }
+        document.write("<br>");
+    }
+</script>
+<script>
+    document.write("<table align='center'>");
+    for (let i = 0; i <= 9; i++) {
+        document.write("<tr>");
+        for (let j = 0; j <= i ; j++) {
+            document.write("<td>");
+            document.write(i + " * " + j + " = " + (i * j) + "&nbsp;&nbsp;&nbsp;");
+            document.write("</td>");
+        }
+        document.write("</tr>");
+    }
+    document.write("</table>");
+</script>
+
+</p>
+
+</body>
+</html>
